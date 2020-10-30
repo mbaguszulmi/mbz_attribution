@@ -10,6 +10,7 @@ div#attribution {
     position: sticky;
     top: 0;
     z-index: 99999999;
+    width: 100%;
 }
 
 div#attribution .left {
