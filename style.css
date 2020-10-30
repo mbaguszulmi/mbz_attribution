@@ -73,5 +73,5 @@ div#attribution-mini .buttons {
 div#attribution-mini .buttons a {
     color: #fff;
     margin-right: 10px;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
