@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 
-div#attribution *, div#attribution-mini * {
+div#attribution, div#attribution-mini, div#attribution *, div#attribution-mini * {
     box-sizing: border-box;
 }
 
