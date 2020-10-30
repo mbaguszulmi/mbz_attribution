@@ -2,7 +2,7 @@ document.body.onload = () => {
     const attribution = document.createElement("div")
     const portofolioLink = "https://mbaguszulmi.github.io"
     const getYoursLink = "https://api.whatsapp.com/send?phone=+6289682056995"
-    const stylesheetUrl = "https://raw.githubusercontent.com/mbaguszulmi/mbz_attribution/master/style.css"
+    const stylesheetUrl = "https://raw.githack.com/mbaguszulmi/mbz_attribution/master/style.css"
 
     attribution.id = "attribution"
 
