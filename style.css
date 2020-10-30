@@ -36,7 +36,7 @@ div#attribution a.attr-btn:hover {
 }
 
 div#close-attr {
-    padding: 0 10px;
+    padding-left: 10px;
     font-size: 26px;
     line-height: 20px;
     cursor: pointer;
