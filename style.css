@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
+
+div#attribution *, div#attribution-mini * {
+    box-sizing: border-box;
+}
+
 div#attribution {
     padding: 20px 20px;
     background-color: #1b1d25;
@@ -28,4 +33,42 @@ div#attribution a.attr-btn {
 
 div#attribution a.attr-btn:hover {
     background-color: #393d4e;
+}
+
+div#close-attr {
+    padding: 0 10px;
+    font-size: 26px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+div#attribution-mini {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background: #1b1d25;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 8px 10px;
+    border-radius: 8px 8px 0 0;
+    z-index: 999999999;
+    box-sizing: border-box;
+}
+
+div#attribution-mini .creator {
+    overflow: hidden;
+    height: 22px;
+    transition: height 0.3s ease-in-out;
+}
+
+div#attribution-mini .buttons {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease-in-out;
+    text-align: center;
+}
+
+div#attribution-mini .buttons a {
+    color: #fff;
+    margin-right: 10px;
 }
